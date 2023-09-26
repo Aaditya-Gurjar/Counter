@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(45, 45, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-sub-div{
+    margin: 20px;
+    color: white;
+}
+.main-sub-div-buttons{
+    display: flex;
+    background-color: white;
+    /* width: 100px; */
+}
+
+.btn{
+    padding: 10px 20px;
+    border-right:  1px solid black;
+    border-left: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: larger;
+}
+
+.counter{
+    padding: 10px 35px;
+    font-size: larger;
+}
